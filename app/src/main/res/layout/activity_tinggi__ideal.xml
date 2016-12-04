@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tinggi__ideal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sparda.kalkulatorsehat.ActivityTinggi_Ideal">
+
+
+    <TextView
+        android:text="Berat Badan"
+        android:layout_marginTop="38dp"
+        android:id="@+id/textView"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_width="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="@android:drawable/editbox_background_normal"
+        android:layout_width="150dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Simpan Hasil"
+        android:layout_height="50dp"
+        android:id="@+id/button2"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="130dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame" />
+
+    <Button
+        android:text="Hitung"
+        android:layout_height="50dp"
+        android:id="@+id/button"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:layout_width="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+</RelativeLayout>
